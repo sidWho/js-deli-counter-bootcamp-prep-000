@@ -10,8 +10,8 @@ function nowServing(katzDeliLine) {
  var x =  katzDeliLine.length
  
  if (x === 0)
-   return 
+   return  "There is nobody waiting to be served!"
   else
-  return
+  return 
   
 }
