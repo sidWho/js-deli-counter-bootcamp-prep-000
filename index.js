@@ -8,7 +8,10 @@ function takeANumber(katzDeliLine, name ){
 
 function nowServing(katzDeliLine) {
  var x =  katzDeliLine.length
+ 
  if (x === 0)
-  
+   return 
+  else
+  return
   
 }
