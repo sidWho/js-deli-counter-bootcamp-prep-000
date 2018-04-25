@@ -6,7 +6,9 @@ function takeANumber(katzDeliLine, name ){
 }
 
 
-function nowServing() {
+function nowServing(katzDeliLine) {
+ var x =  katzDeliLine[0]
+ if (x <> null)
   
   
 }
