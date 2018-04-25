@@ -11,7 +11,9 @@ function nowServing(katzDeliLine) {
  
  if (x === 0)
    return  "There is nobody waiting to be served!"
-  else
-  return 
-  
+ else {
+    var y = katzDeliLine[0]
+    katzDeliLine[0].pop()
+    return y
+ }
 }
